@@ -1,0 +1,2 @@
+rootProject.name='KuttiesDTP_1.0'
+include ':app'
