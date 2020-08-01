@@ -70,6 +70,8 @@ class advance : AppCompatActivity() {
             var dproj = save1.getString("dproj","")
             var dprojs = dproj?.split(",")
 
+
+            
             val shif = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
             var fileName =shif.toString() + myfish + ".txt"
             var myfile = File(fileName)
